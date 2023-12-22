@@ -1,0 +1,55 @@
+.formImage{
+  width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.animalCardWrapper{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+
+.animalCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  border-radius: 20px;
+  background-color: #35530A;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  height: 100%;
+}
+
+.buttonWrapper{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cardsImage {
+  object-fit: cover;
+  width: 100%; /* Make the image take up the full width of the container */
+  height: 150px; /* Maintain the aspect ratio of the image */
+  border-radius: 10px;
+}
+
+
+.animalName{
+  line-height: 0;
+  color: #9fc964;
+}
+
+.button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #9fc964;
+  color: #35530A;
+}
